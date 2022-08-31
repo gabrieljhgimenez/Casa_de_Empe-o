@@ -1,0 +1,41 @@
+body {
+	background: #8BFFBE;
+	min-width: 100px;
+}
+.Titulo {
+	font-size: 50px;
+	min-width: 100px;
+
+}
+.logo_moneda {
+	min-width: 100px;
+	height: 210px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } 
+}
+
+.contactos {
+	min-width: 100px;
+}
+table {
+	font-size: 50px;
+}
+.info {
+	font-size: 20px;
+}
+.manito {
+	height: 200px;
+	position: absolute;
+    top: 740px;
+    left: 100px;
+
+}
+.whatsapp {
+	height: 90px;
+	width: 90px;
+}
